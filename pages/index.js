@@ -1,6 +1,6 @@
 import { MongoClient } from "mongodb";
 
-import MeetupList from "../components/meetups/MeetupList";
+import MeetupList from "../components/meetups/MeetUpList";
 
 function HomePage(props) {
   return <MeetupList meetups={props.meetups} />;
